@@ -7,6 +7,7 @@ share your code here to participate in hacktoberfest 2022 event, maybe you can s
 
 <a href="https://github.com/Haritsdev0981/share-your-code/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Haritsdev0981/share-your-code" />
+  https://contrib.rocks/image?repo=ossamamehmood/Hacktoberfest2022
 </a>
   
   </div>
