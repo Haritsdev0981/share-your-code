@@ -1,0 +1,167 @@
+*{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,#8cc8ed ,#405aea );
+
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+h4{
+    font-family: 'Satisfy', cursive;
+    color:blanchedalmond;
+}
+.lighthouse{
+    width: fit-content;
+    background-color:lavender;
+    padding: 5em;
+    border-radius: 0.6em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.55);
+}
+
+#btn-1{
+    size: 1000px;
+    background-image: url(lighthouse-1.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: rgb(236, 51, 183);
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-2{
+    size: 1000px;
+    background-image: url(lighthouse-5.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: rgb(26, 212, 57);
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-3{
+    size: 1000px;
+    background-image: url(demo.jfif);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: rgb(181, 30, 123);
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-4{
+    size: 1000px;
+    background-image: url(lighthouse-6.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: rgb(252, 90, 26);
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-5{
+    size: 1000px;
+    background-image: url(lighthouse-7.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: aliceblue;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-6{
+    size: 1000px;
+    background-image: url(lighthouse-2.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: aliceblue;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-7{
+    size: 1000px;
+    background-image: url(lighthouse-9.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: aliceblue;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-8{
+    size: 1000px;
+    background-image: url(lighthouse-8.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: aliceblue;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+#btn-9{
+    size: 1000px;
+    background-image: url(lighthouse-3.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: .01px;
+    color: aliceblue;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+
+.ab{
+    background-color: rgb(227, 45, 121);
+    background-image: none;
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    width: fit-content;
+    border-radius: 25px;
+}
+
