@@ -10,3 +10,9 @@ share your code here to participate in hacktoberfest 2022 event, maybe you can s
 </a>
   
   </div>
+
+## This project is perfect for your first pull request
+
+🗣 **Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the challenge and earn a limited edition T-shirt.**
+
+📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
