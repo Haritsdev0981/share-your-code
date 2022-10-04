@@ -1,8 +1,6 @@
 # Share-your-code 
 share your code here to participate in hacktoberfest 2022 event, maybe you can share about web, app or anything useful in programming.  Then enjoy the code ✌️
 
-![Hacktoberfest 2022](static/logo.png)
-
 ## Contributors of `Hacktoberfest 2022`
 
 <div align="center">
