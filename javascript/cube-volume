@@ -1,0 +1,7 @@
+function calculateCubeVolume(edge) {
+    const result = edge * edge * edge;
+    return result;
+
+}
+
+console.log(calculateCubeVolume(8));
