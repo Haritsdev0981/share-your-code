@@ -194,6 +194,7 @@ word_list = [
 'whizzing', 
 'whomever', 
 'wimpy', 
+'window', 
 'witchcraft', 
 'wizard', 
 'woozy', 
