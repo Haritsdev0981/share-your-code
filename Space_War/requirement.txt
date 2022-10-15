@@ -1,0 +1,3 @@
+#run this command
+    
+    pip install pygame
