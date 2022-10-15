@@ -12,15 +12,15 @@ word_length = len(chosen_word)
 
 display = []
 for _ in range(word_length):
-    display += "_"
+    display += "-"
 
 while not game_is_finished:
-    guess = input("Guess a letter: ").lower()
+    guess = input("Guess a letter bitch: ").lower()
 
     clear()
 
     if guess in display:
-        print(f"You've already guessed {guess}")
+        print(f"You've already guessed Idiot {guess}")
 
     for position in range(word_length):
         letter = chosen_word[position]
@@ -29,14 +29,14 @@ while not game_is_finished:
     print(f"{' '.join(display)}")
 
     if guess not in chosen_word:
-        print(f"You guessed {guess}, that's not in the word. You lose a life.")
+        print(f"You guessed {guess}, that's not in the word. You lose a life. Haha")
         lives -= 1
         if lives == 0:
             game_is_finished = True
-            print("You lose.")
+            print("You lose. Bye")
     
-    if not "_" in display:
+    if not "-" in display:
         game_is_finished = True
-        print("You win.")
+        print("You win. Congrats")
 
     print(stages[lives])
