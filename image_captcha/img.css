@@ -28,6 +28,7 @@ h4{
 }
 
 #btn-1{
+    display: block;
     size: 1000px;
     background-image: url(lighthouse-1.png);
     background-size: cover;
@@ -42,6 +43,7 @@ h4{
     margin-bottom: 3px;
 }
 #btn-2{
+    display: block;
     size: 1000px;
     background-image: url(lighthouse-5.png);
     background-size: cover;
@@ -56,6 +58,7 @@ h4{
     margin-bottom: 3px;
 }
 #btn-3{
+    display: block;
     size: 1000px;
     background-image: url(demo.jfif);
     background-size: cover;
@@ -70,6 +73,7 @@ h4{
     margin-bottom: 3px;
 }
 #btn-4{
+    display: block;
     size: 1000px;
     background-image: url(lighthouse-6.png);
     background-size: cover;
@@ -84,6 +88,7 @@ h4{
     margin-bottom: 3px;
 }
 #btn-5{
+    display: block;
     size: 1000px;
     background-image: url(lighthouse-7.png);
     background-size: cover;
@@ -98,6 +103,7 @@ h4{
     margin-bottom: 3px;
 }
 #btn-6{
+    display: block;
     size: 1000px;
     background-image: url(lighthouse-2.png);
     background-size: cover;
