@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="kop-surat" style="display: flex; align-items: center;">
+        <img src="https://cdn.pixabay.com/photo/2012/04/11/15/39/flag-28568_960_720.png" alt="florida flag" style="height: 100px; width: 200px;">
+
+        <div>
+            <h1 style="margin: 0; padding: 0;">Pemerintah Provinsi Florida</h1>
+            <h2 style="margin: 0; padding: 0;">Dinas Pendidikan dan Jendral Pajak</h2>
+            <p style="margin: 0; padding: 0;">Jl.Raya Jeruk 1 Florida, Jawa Barat</p>
+        </div>        
+    </div>
+    <hr>
+    <div>
+        <p>Kepada Yth.</p>
+        <p>Bpk. Umar Jenkins SS. MM.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sit ducimus quis quisquam, earum eveniet obcaecati, non corporis nemo ipsa sunt! At in laboriosam modi iste aperiam voluptatem voluptates dolore?, Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, commodi officia velit earum, aliquam nulla beatae molestias asperiores, dolorem harum laudantium! Nam cumque expedita harum eaque mollitia iste, tempora asperiores.</p>
+    </div>
+</body>
+</html>
