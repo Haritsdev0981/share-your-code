@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lates</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background-color: #08c;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .item{
+            width: 200px;
+            height: 50px;
+            background-color: #f9f9f9;
+            margin: 10px;
+        }
+
+        .wrap{
+            width: 80%;
+            height: 500px;
+            background-color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .block{
+            width: 400px;
+            height: 100px;
+            background: #7e7e7e;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        Flexbox VS Grid
+    -->
+
+    <!--
+        Flex Box atau Flex
+    -->
+
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+
+    <!--
+        Flex Direction :
+        1. Row (default) : item akan tampil horizontal kiri ke kanan
+        2. Row-reverse : item akan tampil horizontal kanan ke kiri
+        3. Column : item akan tampil vertical atas ke bawah
+        4. Colum-reverse : item akan tampil vertical dari bawah ke atas
+    -->
+
+    <!-- wraping -->
+    <!-- flex wrap :
+    Secara default dia akan membuat sebuah row dan meresize ukuran elemen yang ada di dalamnya.
+    1. nowrap (default) : semua item akan ditata secara 1 baris dan akan mengubah ukuran
+    asli dari item.
+    2. wrap : memindahkan ke bari selanjutnya, dan ukuran item akan tetap.
+    3. wrap-reverse : memindahkan ke bari selanjutnya, dan ukuran item akan tetap secara terbalik. -->
+
+    <div class="container">
+        <div class="wrap">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+
+</body>
+</html>
