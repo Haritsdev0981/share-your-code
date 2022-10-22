@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+	<style>
+		img{
+			height:93px;
+			transform:translate(-50%,-50%);
+			left:50%;
+			right:50%;
+			animation:orbit 60s infinite linear;
+		}
+		.weight{
+			width:100px;
+			/* background-color: white; */
+			background-color: #f9fafb8a;
+			color:black;
+		}
+		@keyframes orbit {
+			from{
+				transform:rotate(0deg);
+			}to{
+				transform:rotate(359deg);
+			}
+		}
+
+		.milkyway{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+		}
+		.planet{
+			margin: 57px 60px;
+		}
+	</style>
+</head>
+<body style="background-image:url('assets/images/Animated\ Backgrounds\ 2\ -\ Free\ Download.gif'); overflow-x:hidden;">
+    <div class="text-center mt-3 fw-bold fs-2 text-white">Your Weights on Other Planet
+    </div>
+    <div>
+    <h3 class="text-white text-center fs-5 fw-normal mt-4">
+        Ever wonder what you might weight on Mars or The Moon? Here's your chance to find out. 
+    </h3>
+  </div>
+	<div id="enterweight" class="fancytype text-white text-center mt-4">
+		ENTER YOUR WEIGHT HERE &#8594; 
+		<input class="inputW" style="background-color: #f9fafb8a;" id="inputWe" type="text" name="wt" size="5" aria-label="Enter Your Weight" value="">
+		<input class="inputW" type="button" value="Calculate" onclick="Mercury()">
+	</div>
+	<section class="text-center mt-4">
+		<h2 style="color: #716AF5;"  class="fancytype text-center ">
+		The Planets 
+	</h2>
+	<div class="milkyway text-white my-5">
+	
+		<div class="planet">
+			<h4>
+				MERCURY 
+			</h4>
+			<img src="assets/images/mercury.png"  alt="Mercury"></a><p >
+			Your weight is</p>
+			<div class="weight" id="mercury"></div>
+		</div>
+		<div class="planet ">
+			<h4>
+				VENUS 
+			</h4>
+			<img src="assets/images/venus.jpg"  alt="Venus"></a><p>
+			Your weight is</p>
+			<div class="weight" id="venus"></div>
+		</div>
+		<div class="planet ">
+			<h4>
+				THE MOON 
+			</h4>
+			<img src="assets/images/moon.png"  alt="The Moon"></a><p>
+			Your weight is</p>
+			<div class="weight" id="moon"></div>
+			
+		</div>
+		
+     
+		<div class="planet">
+			<h4>
+				MARS 
+			</h4>
+			<img src="assets/images/mars.png"  alt="Mars"></a><p>
+			Your weight is</p>
+			<div class="weight" id="mars"></div>
+		</div>
+		<div class="planet">
+			<h4>
+				JUPITER 
+			</h4>
+			<img src="assets/images/jupiter.png"  alt="Jupiter"></a><p>
+			Your weight is</p>
+			<div class="weight" id="jupiter"></div>
+		</div>
+		<div class="planet">
+			<h4>
+				SATURN 
+			</h4>
+			<img src="assets/images/saturn.png"  alt="Saturn"></a><p>
+			Your weight is</p>
+			<div class="weight" id="saturn"></div>
+			
+		</div>
+   
+		<div class="planet">
+			<h4>
+				URANUS 
+			</h4>
+			<img src="assets/images/uranus.png"  alt="Uranus" onclick="uranus()"></a><p>
+			Your weight is</p>
+			<div class="weight" id="uranus"></div>
+		</div>
+		<div class="planet">
+			<h4>
+				NEPTUNE 
+			</h4>
+			<img src="assets/images/neptune.png"  alt="Neptune"></a><p>
+			Your weight is</p>
+			<div class="weight" id="neptune"></div>
+		</div>
+		<div class="planet ">
+			<h4>
+				PLUTO 
+			</h4>
+			<img src="assets/images/pluto.jpg"  alt="Pluto"></a><p>
+			Your weight is</p>
+			<div class="weight" id="pluto"></div>
+		</div>
+	</div>
+	</section>
+    
+<script src="assets/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
